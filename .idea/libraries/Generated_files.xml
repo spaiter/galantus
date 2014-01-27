@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/coffee/loader.js" />
+        <item url="file://$PROJECT_DIR$/coffee/setFrame.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/coffee/loader.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setFrame.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

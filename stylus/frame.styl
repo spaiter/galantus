@@ -1,0 +1,51 @@
+@import 'vars.styl'
+
+.frame
+  position relative
+  width 100%
+  .frameTop
+    z-index 4
+    position fixed
+    height 0
+    width 0
+    top 0
+    background $white
+  .frameRight
+    z-index 3
+    position absolute
+    height 0
+    width 0
+    right 0
+    background $white
+  .frameBottom
+    z-index 2
+    position fixed
+    height 0
+    width 0
+    bottom 0
+    background $white
+  .frameLeft
+    z-index 1
+    position absolute
+    height 0
+    width 0
+    left 0
+    background $white
+
+.copyrights
+  display none
+  position absolute
+  line-height 50px
+  z-index 0
+  left 50px
+  font-size 14px
+  color $gray
+
+.credits
+  display none
+  position absolute
+  line-height 50px
+  z-index 0
+  right 0
+  font-size 14px
+  color $gray
