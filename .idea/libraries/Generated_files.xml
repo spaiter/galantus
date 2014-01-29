@@ -2,13 +2,26 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/coffee/loader.js" />
+        <item url="file://$PROJECT_DIR$/coffee/setVerticalCenterScrollBullets.js" />
+        <item url="file://$PROJECT_DIR$/coffee/forMobileDevice.js" />
         <item url="file://$PROJECT_DIR$/coffee/setFrame.js" />
+        <item url="file://$PROJECT_DIR$/coffee/scrollActivation.js" />
+        <item url="file://$PROJECT_DIR$/coffee/setSectionsDimensions.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/coffee/checkIsMobile.js" />
+      <root url="file://$PROJECT_DIR$/coffee/loader.js" />
+      <root url="file://$PROJECT_DIR$/coffee/checkIsMobile.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setMainPageFirstSectionBackground.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setMainPageFirstSectionBackground.js" />
       <root url="file://$PROJECT_DIR$/coffee/loader.js" />
       <root url="file://$PROJECT_DIR$/coffee/setFrame.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setVerticalCenterScrollBullets.js" />
+      <root url="file://$PROJECT_DIR$/coffee/forMobileDevice.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setFrame.js" />
+      <root url="file://$PROJECT_DIR$/coffee/scrollActivation.js" />
+      <root url="file://$PROJECT_DIR$/coffee/setSectionsDimensions.js" />
     </CLASSES>
     <SOURCES />
   </library>

@@ -23,24 +23,53 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <div class="frame">
-                <div class="frameLeft"></div>
-                <div class="frameTop"></div>
-                <div class="frameRight"></div>
-                <div class="frameBottom">
-                    <div class="copyrights">© Медицинский центр «Галантус», 2013</div>
-                    <div class="credits"><a href="http://da-group.ru/">Разработка сайта</a>: дизайн-студия «ДА!», 2013</div>
-                </div>
+        <div class="frame">
+            <div class="frameLeft"></div>
+            <div class="frameTop"></div>
+            <div class="frameRight"></div>
+            <div class="frameBottom">
+                <div class="copyrights">© Медицинский центр «Галантус», 2013</div>
+                <div class="credits"><a href="http://da-group.ru/">Разработка сайта</a>: дизайн-студия «ДА!», 2013</div>
             </div>
+        </div>
+        <div class="container main">
+            <section class="aboutUs">
+                <div class="background js-mainPageFirstSectionBGWrapper">
+                    <img class="js-mainPageFirstSectionBG" src="img/mainpage/main.jpg" alt=""/>
+                </div>
+                <div class="logo"><img src="img/logo.png" alt=""/></div>
+                <div class="aboutUsBlock">
+                    <h1>О нас</h1>
+                    <div class="btn blockCenter">Подробнее</div>
+                </div>
+            </section>
+            <section class="barber">
+                <div class="logo"></div>
+                <div class="aboutUs">
+                    <h1>О нас</h1>
+                    <div class="btn blockCenter">подробнее</div>
+                </div>
+            </section>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script src="js/mobileCheck.js"></script>
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <script src="coffee/setFrame.js"></script>
         <script src="coffee/loader.js"></script>
+        <script src="coffee/setSectionsDimensions.js"></script>
+        <script src="coffee/setMainPageFirstSectionBackground.js"></script>
+        <script src="js/jquery.onepage-scroll.js"></script>
+        <script src="coffee/scrollActivation.js"></script>
+
+        <script src="coffee/setVerticalCenterScrollBullets.js"></script>
+
+        <script src="coffee/forMobileDevice.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
